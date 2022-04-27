@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNgSuite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="test.Listeners" />
+	</listeners>
+	<test name="TestNgTests">
+		<classes>
+			<class name="test.TestNgOne" />
+			<class name="test.TestNgTwo" />
+			<class name="test.TestNgFour" />
+		</classes>
+	</test>
+	<test name="Car Loan">
+		<parameter name="URL" value="rahulshettyacademy.com" />
+		<parameter name="APIKey/username" value="123456" />
+		<classes>
+			<class name="test.TestNgThree" />
+		</classes>
+	</test>
+</suite>

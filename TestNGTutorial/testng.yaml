@@ -1,0 +1,16 @@
+name: TestNgSuite
+configFailurePolicy: skip
+listeners:
+  - test.Listeners
+tests:
+  - name: TestNgTests
+  classes:
+    - test.TestNgOne
+    - test.TestNgTwo
+    - test.TestNgFour
+
+  - name: Car Loan
+  parameters: { APIKey/username: 123456, URL: rahulshettyacademy.com }
+  classes:
+    - test.TestNgThree
+
