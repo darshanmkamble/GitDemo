@@ -22,7 +22,7 @@ public class TestNgOne {
 
 	@Test
 	public void bye() {
-		System.out.println("bye");
+		System.out.println("bye bye bye bye bye");
 	}
 
 	@AfterSuite
