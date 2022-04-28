@@ -11,6 +11,6 @@ public class TestNgTwo {
 
 	@BeforeTest
 	public void prerequisite() {
-		System.out.println("Write all database cleaning operations here");
+		System.out.println("Write all database cleaning operations here!");
 	}
 }

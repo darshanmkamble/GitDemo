@@ -11,7 +11,7 @@ public class TestNgOne {
 
 	@AfterTest
 	public void finalCleanup() {
-		System.out.println("Write your database closing steps here");
+		System.out.println("Write your database closing steps here!");
 	}
 
 	@Test
@@ -22,7 +22,7 @@ public class TestNgOne {
 
 	@Test
 	public void bye() {
-		System.out.println("bye bye bye bye bye");
+		System.out.println("bye");
 	}
 
 	@AfterSuite
